@@ -1,7 +1,7 @@
 name: "Statistical methods for the Biosciences I, block 2, 2020"
 output_dir: "docs"
 navbar:
-  title: " "
+  title: ""
   left:
     - text: "Practical information (only SmB I)"
       href: index.html
