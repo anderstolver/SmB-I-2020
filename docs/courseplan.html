@@ -298,7 +298,7 @@ $(document).ready(function () {
 <li><a href="#overview-of-course">Overview of course</a></li>
 <li><a href="#details-for-each-day-of-the-course">Details for each day of the course</a><ul>
 <li><a href="#week1">Day 1: November 18, 2020</a></li>
-<li><a href="#week2">Day 2: November 25, 2020</a></li>
+<li><a href="#week2">Day 2: November 25, 2020 (Temporary program)</a></li>
 <li><a href="#week3">Day 3: December 2, 2020</a></li>
 <li><a href="#week4">Day 4: December 9, 2020</a></li>
 <li><a href="#week5">Day 5: December 16, 2020</a></li>
@@ -417,12 +417,43 @@ $(document).ready(function () {
 </ul>
 </div>
 <div id="week2" class="section level2">
-<h2>Day 2: November 25, 2020</h2>
-<p>Link to <a href="https://ucph-ku.zoom.us/j/65416958807">online teaching</a></p>
-<p>Slides</p>
-<p>Exercise sheet</p>
-<p>Data (from lectures and exercises)</p>
-<p>R - programs (for lectures and some exercises)</p>
+<h2>Day 2: November 25, 2020 (Temporary program)</h2>
+<p>Link to <a href="https://ucph-ku.zoom.us/j/65416958807">online teaching (lectures)</a></p>
+<p>Link to <a href="https://ucph-ku.zoom.us/j/63475842814">online teaching (exercise classes at 12:45 by Bo Markussen)</a></p>
+<p>Link to <a href="https://ucph-ku.zoom.us/j/9947189040">online teaching (exercise classes at 12:45 by Phillip)</a></p>
+<p><strong>LabApplStat R-package (by Bo Markussen)</strong></p>
+<p>Bo Markussen (who developed the teaching material for this course) has created an R-package <code>LabApplStat</code> that you are asked to install on your computer.</p>
+<p>If you are using the latest version of R (4.0.3), and you have installed the <code>devtools</code> R-package on your computer, then you should be able to install <code>LabApplStat</code> directly from github by running</p>
+<pre class="r"><code>devtools::install_github(&quot;bomarkussen/LabApplStat&quot;,upgrade=&quot;never&quot;)</code></pre>
+<p>You may also save the following <a href="data/LabApplStat_1.4.0.tar.gz">tar.gz-file</a> and install the package by running</p>
+<pre class="r"><code>install.packages(&quot;myfolder/LabApplStat_1.4.0.tar.gz&quot;, repos = NULL, type = &quot;source&quot;)</code></pre>
+<p><strong>Slides</strong></p>
+<ul>
+<li><a href="slides/day2.pdf">day2 (for screen)</a></li>
+<li><a href="slides/day2_handout.pdf">day2_handout (for print)</a></li>
+</ul>
+<p><strong>Papers</strong></p>
+<ul>
+<li><em>Sifting the evidence—what’s wrong with significance tests?</em>: <a href="papers/Sifting_the_evidence.pdf">Sifting the evidence</a></li>
+<li><em>Beyond Power Calculations: Assessing Type S (Sign) and Type M (Magnitude) Errors</em>: <a href="papers/TypeS_M_error.pdf">Type S M error</a></li>
+</ul>
+<p><strong>Exercise sheet</strong></p>
+<ul>
+<li><a href="exercises/ex_day2.pdf">Exercises for Day 2</a></li>
+</ul>
+<p><strong>Data (from lectures and exercises)</strong></p>
+<ul>
+<li>Eye-testing: <a href="data/vision.xlsx">vision.xlsx</a></li>
+<li>Tenderness of pork meat (from Exercise 2.1): <a href="data/dataExample2.txt">dataExample2.txt</a> - <a href="data/dataExample2.xls">dataExample2.xls</a></li>
+<li>Dramanine as a remedy against seasickness (from Exercise 2.3): <a href="data/dramanine.txt">dramanine.txt</a></li>
+<li>Discretization of continuous variables (from Exercise 2.7): <a href="data/Galton.txt">Galton.txt</a></li>
+</ul>
+<p><strong>R - programs (for lectures and some exercises)</strong></p>
+<!--
+* Density of nerve cells (Data example 2 from Day 1): [cellDensity.R](R/cellDensity.R)
+* Avadex given to mice: [avadex.R](R/avadex.R)
+* Activity of chicken: [chicken.R](R/chicken.R)
+-->
 </div>
 <div id="week3" class="section level2">
 <h2>Day 3: December 2, 2020</h2>
