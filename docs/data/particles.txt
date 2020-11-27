@@ -1,0 +1,25 @@
+type	depth	location	count
+Krystallin	04-11 meters	A	207
+Krystallin	04-11 meters	B	205
+Krystallin	11-14 meters	A	87
+Krystallin	11-14 meters	B	104
+Krystallin	18-20 meters	A	159
+Krystallin	18-20 meters	B	142
+Sedimentkorn	04-11 meters	A	48
+Sedimentkorn	04-11 meters	B	61
+Sedimentkorn	11-14 meters	A	23
+Sedimentkorn	11-14 meters	B	14
+Sedimentkorn	18-20 meters	A	19
+Sedimentkorn	18-20 meters	B	12
+Taet flint	04-11 meters	A	15
+Taet flint	04-11 meters	B	12
+Taet flint	11-14 meters	A	46
+Taet flint	11-14 meters	B	64
+Taet flint	18-20 meters	A	94
+Taet flint	18-20 meters	B	100
+Kvartskorn	04-11 meters	A	30
+Kvartskorn	04-11 meters	B	28
+Kvartskorn	11-14 meters	A	133
+Kvartskorn	11-14 meters	B	127
+Kvartskorn	18-20 meters	A	41
+Kvartskorn	18-20 meters	B	51
